@@ -8,11 +8,13 @@ include_directories(${PROJECT_SOURCE_DIR}/src)
 set(SOURCES
     ${PROJECT_SOURCE_DIR}/src/mults_of_3_or_5.cpp
     ${PROJECT_SOURCE_DIR}/src/phone_number.cpp
+    ${PROJECT_SOURCE_DIR}/src/abbrev_name.cpp
         )
 
 set(HEADERS
         ${PROJECT_SOURCE_DIR}/src/mults_of_3_or_5.h
         ${PROJECT_SOURCE_DIR}/src/phone_number.h
+        ${PROJECT_SOURCE_DIR}/src/abbrev_name.h
         )
 
 macro(add_test TESTNAME)
@@ -33,3 +35,4 @@ endmacro()
 
 add_test(test_mults test_mults_of_3_or_5.cpp ${SOURCES} ${HEADERS})
 add_test(test_phone_number test_phone_number.cpp ${SOURCES} ${HEADERS})
+add_test(test_abbrev_name test_abbrev_name.cpp ${SOURCES} ${HEADERS})
