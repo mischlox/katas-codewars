@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/katas_cpp.dir/main.cpp.o CMakeFiles/katas_cpp.dir/mults_of_3_or_5.cpp.o CMakeFiles/katas_cpp.dir/phone_number.cpp.o CMakeFiles/katas_cpp.dir/__/tests/test_phone_number.cpp.o -o katas_cpp 

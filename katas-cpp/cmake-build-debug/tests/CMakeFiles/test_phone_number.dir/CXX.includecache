@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/michael/projects/katas/katas-cpp/src/phone_number.cpp
+phone_number.h
+/home/michael/projects/katas/katas-cpp/src/phone_number.h
+
+/home/michael/projects/katas/katas-cpp/src/phone_number.h
+string
+-
+

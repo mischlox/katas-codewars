@@ -1,0 +1,5 @@
+if(EXISTS "/home/michael/projects/katas/katas-codewars/katas-cpp/cmake-build-debug/tests/test_phone_number[1]_tests.cmake")
+  include("/home/michael/projects/katas/katas-codewars/katas-cpp/cmake-build-debug/tests/test_phone_number[1]_tests.cmake")
+else()
+  add_test(test_phone_number_NOT_BUILT test_phone_number_NOT_BUILT)
+endif()

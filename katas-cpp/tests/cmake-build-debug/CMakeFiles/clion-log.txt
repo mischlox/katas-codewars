@@ -1,0 +1,22 @@
+/home/michael/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/michael/projects/katas/katas-cpp/tests
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Error at CMakeLists.txt:3 (add_subdirectory):
+  add_subdirectory given source
+  "/home/michael/projects/katas/katas-cpp/tests/extern/googletest" which is
+  not an existing directory.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/michael/projects/katas/katas-cpp/tests/cmake-build-debug/CMakeFiles/CMakeOutput.log".

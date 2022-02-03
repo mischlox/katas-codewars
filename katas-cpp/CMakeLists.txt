@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.19)
+project(katas_cpp)
+option(BUILD_TESTS "Build the tests" ON)
+if(BUILD_TESTS)
+    add_subdirectory(tests)
+endif()
+set(CMAKE_CXX_STANDARD 14)
+add_subdirectory(src)

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/test_mults.dir/test_mults_of_3_or_5.cpp.o CMakeFiles/test_mults.dir/__/src/mults_of_3_or_5.cpp.o CMakeFiles/test_mults.dir/__/src/phone_number.cpp.o -o test_mults  ../lib/libgtest.a ../lib/libgmock.a ../lib/libgtest_main.a ../lib/libgtest.a -lpthread 
