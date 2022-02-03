@@ -1,5 +1,0 @@
-add_test( test_kata.first_test /home/michael/projects/katas/katas-cpp/cmake-build-debug/tests/test_mults [==[--gtest_filter=test_kata.first_test]==] --gtest_also_run_disabled_tests)
-set_tests_properties( test_kata.first_test PROPERTIES WORKING_DIRECTORY /home/michael/projects/katas/katas-cpp/cmake-build-debug/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==] VS_DEBUGGER_WORKING_DIRECTORY)
-add_test( test_kata.return_sum_when_3_or_5 /home/michael/projects/katas/katas-cpp/cmake-build-debug/tests/test_mults [==[--gtest_filter=test_kata.return_sum_when_3_or_5]==] --gtest_also_run_disabled_tests)
-set_tests_properties( test_kata.return_sum_when_3_or_5 PROPERTIES WORKING_DIRECTORY /home/michael/projects/katas/katas-cpp/cmake-build-debug/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==] VS_DEBUGGER_WORKING_DIRECTORY)
-set( test_mults_TESTS test_kata.first_test test_kata.return_sum_when_3_or_5)
